@@ -1,7 +1,5 @@
 # transcriber
-This code takes Youtube video and generates associated mp3 in bucket and genrates associate Transcripts using machine learning based AWS api. :party_parrot
-
-You're welcome! I'm glad I could help. The task you described sounds interesting and involves a combination of different AWS services to achieve the goal.
+This code takes Youtube video URL and generates associated mp3 in S3 bucket, then it genrates associate Transcripts using machine learning based AWS api. :party_parrot
 
 To summarize the process:
 
@@ -13,6 +11,6 @@ To summarize the process:
 
 4. **Transcript Storage**: The resulting transcript is stored in a suitable format, such as JSON or plain text, in another Amazon S3 bucket.
 
-By using this process, you can automatically generate an MP3 audio file and its corresponding transcript based on a given YouTube video. This can be useful for various applications, such as content indexing, accessibility, or data analysis.
+By using this process, we can automatically generate an MP3 audio file and its corresponding transcript based on a given YouTube video. This can be useful for various applications, such as content indexing, accessibility, or data analysis.
 
 If you plan to implement this workflow, be sure to review the specific services' documentation and consider the cost implications, especially if processing a large number of videos. Also, consider any copyright or licensing issues related to downloading and processing YouTube videos. Always ensure that you comply with YouTube's terms of service and any applicable laws and regulations.
