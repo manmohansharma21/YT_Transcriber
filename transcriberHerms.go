@@ -34,7 +34,6 @@ package main
 // }
 
 // func transcriber(videoURL string) {
-
 // 	videoID, _ := extractVideoIDFromURL(videoURL)
 // 	bucketName := os.Getenv("AWS_BUCKET")
 
