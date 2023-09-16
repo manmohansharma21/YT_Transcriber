@@ -107,7 +107,6 @@ package main
 // 	}
 
 // 	fmt.Println("Transcript uploaded to S3:", "s3://"+bucketName+"/"+transcriptObjectName)
-
 // }
 
 // func extractVideoIDFromURL(youtubeURL string) (string, error) {
